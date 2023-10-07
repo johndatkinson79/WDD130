@@ -9,8 +9,8 @@ text-decoration: none;}
   #hero-msg h4 {text-align: center;}
 .button-box {text-align: center;}
 main section {text-align: center;}
-#background {height: 725;
-background-color: gold;}
+#background {height: 725px;
+background-color: #63b4d1;}
 body {background-color: #74fbf7;}
 header {background-color: #adfcf9;}
 nav a:hover {background-color: #63b4d1;
