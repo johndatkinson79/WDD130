@@ -173,17 +173,21 @@ background-color: red;
 width: 200px; 
 height: 200px; 
 background-color: green; 
+position: relative;
  } 
 .yellow6 {
 width: 200px; 
 height: 400px; 
 background-color: gold; 
+position: relative;
+z-index: -2;
 } 
 .blue6 {
 width: 400px; 
 height: 400px; 
 background-color: blue;
-z-index: var(-45deg);
+position: absolute;
+z-index: -1;
  
 } 
 
