@@ -111,3 +111,14 @@ h2 {margin: 0; color: #007a5c}
   from {opacity: .4}
   to {opacity: 1}
 }
+#flower {display: grid;grid-template-columns: 1fr 3fr 1fr; margin-top: -100px;}
+#flower-msg h1 {text-align: center; color: whitesmoke; margin-top: 325px;}
+#flower-box  {grid-column: 1/4; grid-row: 1/3; z-index: -1 ;}
+#flower-img {width: 100%;}
+#flower-msg {grid-column: 2/3; grid-row: 1/2; margin-top: 100px;}
+.wedd {color: #007a5c;}
+.furni {color: #007A5C;grid-column: 2/4; grid-row: 4/5;}
+.bespoke-img {border: 10px solid #008f68;width: 50%; transition: transform .5s;
+  box-shadow: 5px 5px 10px #007A5C;}
+.bespoke-img:hover {opacity: .6;transform: scale(1.1);}
+.pet {color: #007A5C;}
